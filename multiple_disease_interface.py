@@ -12,11 +12,11 @@ from streamlit_option_menu import option_menu
 
 #Loading the saved models
 
-diabetes_model=pickle.load(open('C:/Users/Zain Ali/Desktop/MultiDisease Prediction System/Saved Models/diabetes_model.sav','rb'))
+diabetes_model=pickle.load(open('https://github.com/ZainAli879/Multidisease-Prediction-System/blob/main/Saved%20Models/diabetes_model.sav','rb'))
 
-heart_disease_model=pickle.load(open('C:/Users/Zain Ali/Desktop/MultiDisease Prediction System/Saved Models/heart_disease_model.sav','rb'))
+heart_disease_model=pickle.load(open('https://github.com/ZainAli879/Multidisease-Prediction-System/blob/main/Saved%20Models/heart_disease_model.sav','rb'))
 
-parkinsons_model=pickle.load(open('C:/Users/Zain Ali/Desktop/MultiDisease Prediction System/Saved Models/parkinsons_model.sav','rb'))
+parkinsons_model=pickle.load(open('https://github.com/ZainAli879/Multidisease-Prediction-System/blob/main/Saved%20Models/parkinsons_model.sav','rb'))
 
 #sidebar for navigation
 
